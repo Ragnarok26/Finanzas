@@ -1,0 +1,79 @@
+﻿@{
+    ViewBag.Title = "Inicio";
+}
+
+<div class="jumbotron" style="padding-top: 2%; padding-bottom: 2%; height: 150px">
+    <div style="float: left; width: 100%; padding-top: 1%;">
+        <form id="uploader" class="form-inline">
+            <div class="col-md-3" style="width: 26%;">
+                <label id="fileInputCedLbl" class="btn btn-default btn-block" style="float: left; text-overflow: ellipsis; overflow: hidden;">
+                    Selecciona Formato...<input id="fileInputCed" type="file" style="display: none;" accept="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel" />
+                </label>
+            </div>
+            <div class="col-md-3" style="width: 26%;">
+                <label id="fileInputEnvLbl" class="btn btn-default btn-block" style="float: left; text-overflow: ellipsis; overflow: hidden;">
+                    Selecciona Parámetros...<input id="fileInputEnv" type="file" style="display: none;" accept="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel" />
+                </label>
+            </div>
+            <div class="col-md-3" style="width: 26%;">
+                <label id="fileInputPdfLbl" class="btn btn-default btn-block" style="float: left; text-overflow: ellipsis; overflow: hidden;">
+                    Selecciona Comprobante de Pago...<input id="fileInputPdf" type="file" style="display: none;" accept="application/pdf" />
+                </label>
+            </div>
+            <input type="submit" class="btn btn-primary" value="Cargar Datos" style="float: left;" />
+            &nbsp;&nbsp;&nbsp;
+            <input type="reset" id="clsForm" class="btn btn-warning" value="Limpiar" style="float: left;" />
+        </form>
+    </div>
+    <div style="float: left; width: 100%;">
+        <form id="uploader" class="form-inline">
+            <div class="col-md-3" style="width: 26%; text-align: center;">
+                <button class="btn btn-sm btn-default" style="margin-top: 10px;" onclick="window.open('@Url.Action("ArchivoEjemploFormato", "Home")');">
+                    <span class="glyphicon glyphicon-download"></span> Descargar ejemplo de formato
+                </button>
+            </div>
+            <div class="col-md-3" style="width: 26%; text-align: center;">
+                <button class="btn btn-sm btn-default" style="margin-top: 10px;" onclick="window.open('@Url.Action("ArchivoEjemploParametros", "Home")');">
+                    <span class="glyphicon glyphicon-download"></span> Descargar ejemplo de parametros
+                </button>
+            </div>
+        </form>
+    </div>
+
+</div>
+
+<div class="panel panel-default">
+    <div class="panel-heading">Configuración del correo</div>
+    <div class="panel-body">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <form id="mailConfig">
+                <div class="form-group">
+                    <div class="input-group">
+                        <span class="input-group-addon">
+                            <i class="glyphicon glyphicon-envelope"></i>
+                        </span>
+                        <input class="form-control" placeholder="Título del correo" id="txtMailSubject" type="text" style="max-width:100%">
+                    </div>
+                </div>
+                <div class="form-group center-block">
+                    <div class="input-group">
+                        <span class="input-group-addon">
+                            <i class="glyphicon glyphicon-pencil"></i>
+                        </span>
+                        <textarea class="form-control" placeholder="Texto del correo" id="txtMailBody" type="text" rows="5" style="max-width:100%"></textarea>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="col-md-2"></div>
+
+    </div>
+</div>
+
+<div id="divLoad"></div>
+
+<script type="text/javascript">
+    var url_Upload = "@Url.Action("Upload", "Home")";
+</script>
+<script type="text/javascript" src="~/Scripts/js/Principal.js"></script>

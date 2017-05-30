@@ -1,0 +1,9 @@
+C:\Users\cmontes\Documents\Visual Studio 2013\Projects\FinanzasIMSS\Imss\bin\Release\Imss.dll
+C:\Users\cmontes\Documents\Visual Studio 2013\Projects\FinanzasIMSS\Imss\bin\Release\Imss.pdb
+C:\Users\cmontes\Documents\Visual Studio 2013\Projects\FinanzasIMSS\Imss\bin\Release\EPPlus.dll
+C:\Users\cmontes\Documents\Visual Studio 2013\Projects\FinanzasIMSS\Imss\bin\Release\EPPlus.xml
+C:\Users\cmontes\Documents\Visual Studio 2013\Projects\FinanzasIMSS\Imss\obj\Release\Imss.dll
+C:\Users\cmontes\Documents\Visual Studio 2013\Projects\FinanzasIMSS\Imss\obj\Release\Imss.pdb
+C:\Users\cmontes\Documents\Visual Studio 2013\Projects\FinanzasIMSS\Imss\bin\Release\GemBox.Spreadsheet.dll
+C:\Users\cmontes\Documents\Visual Studio 2013\Projects\FinanzasIMSS\Imss\bin\Release\GemBox.Spreadsheet.xml
+C:\Users\cmontes\Documents\Visual Studio 2013\Projects\FinanzasIMSS\Imss\obj\Release\Imss.csprojResolveAssemblyReference.cache

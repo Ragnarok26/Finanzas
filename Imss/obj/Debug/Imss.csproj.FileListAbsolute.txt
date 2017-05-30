@@ -1,0 +1,8 @@
+C:\Users\cmontes\Documents\Visual Studio 2013\Projects\FinanzasIMSS\Imss\bin\Debug\Imss.dll
+C:\Users\cmontes\Documents\Visual Studio 2013\Projects\FinanzasIMSS\Imss\bin\Debug\Imss.pdb
+C:\Users\cmontes\Documents\Visual Studio 2013\Projects\FinanzasIMSS\Imss\bin\Debug\EPPlus.dll
+C:\Users\cmontes\Documents\Visual Studio 2013\Projects\FinanzasIMSS\Imss\bin\Debug\GemBox.Spreadsheet.dll
+C:\Users\cmontes\Documents\Visual Studio 2013\Projects\FinanzasIMSS\Imss\bin\Debug\EPPlus.xml
+C:\Users\cmontes\Documents\Visual Studio 2013\Projects\FinanzasIMSS\Imss\bin\Debug\GemBox.Spreadsheet.xml
+C:\Users\cmontes\Documents\Visual Studio 2013\Projects\FinanzasIMSS\Imss\obj\Debug\Imss.dll
+C:\Users\cmontes\Documents\Visual Studio 2013\Projects\FinanzasIMSS\Imss\obj\Debug\Imss.pdb

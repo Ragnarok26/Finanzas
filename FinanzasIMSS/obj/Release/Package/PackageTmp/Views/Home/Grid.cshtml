@@ -1,0 +1,29 @@
+﻿@model IEnumerable<Imss.Common.Empleado>
+
+<div class="table-responsive">
+    @*<table class="table-bordered table-hover table-responsive">*@
+    <table class="table table-condensed table-striped table-sm">
+        <tr>
+            <th>@Html.DisplayNameFor(m => m.Nombre)</th>
+            <th>@Html.DisplayNameFor(m => m.Correo)</th>
+            <th>@Html.DisplayNameFor(m => m.Procesado)</th>
+        </tr>
+        @if (Model != null)
+        {
+            foreach (Imss.Common.Empleado empleado in Model)
+            {
+                <tr>
+                    <td>@empleado.Nombre</td>
+                    <td>@empleado.Correo</td>
+                    <td>@(empleado.Procesado ? "Procesado" : "No Procesado")</td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="3">No hay datos para mostrar</td>
+            </tr>
+        }
+    </table>
+</div>
